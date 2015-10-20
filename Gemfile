@@ -12,8 +12,11 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'activerecord-tableless'
 gem 'bootstrap-sass'
+gem 'google_drive'
 gem 'high_voltage'
+gem 'simple_form', '>= 3.1.0.rc1'
 gem 'thin'
 group :development do
   gem 'better_errors'
